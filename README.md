@@ -33,3 +33,12 @@ npm install
 npm run dev
 Frontend будет доступен по адресу:
 http://localhost:5173
+
+## Project structure
+- chat-frontend — React + TypeScript (Vite)
+- chat-backend — Node.js + Express API
+
+## Notes
+- OpenAI API используется на backend
+- Если лимит API превышен, используется mock-ответ (fallback)
+- Голосовой ввод реализован через Web Speech API
