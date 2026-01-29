@@ -1,0 +1,44 @@
+.chat-header {
+  padding: 70px 90px;
+  color: #fff;
+}
+
+.chat-header__icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow:
+    0 10px 24px rgba(0,0,0,.25),
+    inset 0 1px 0 rgba(255,255,255,.15);
+}
+
+.chat-header__icon img {
+  width: 28px;
+  height: 28px;
+}
+
+.chat-header__title {
+  font-size: 44px;
+  font-weight: 600;
+  margin: 40px 0 18px;
+}
+
+.chat-header__subtitle {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0 0 26px;
+  letter-spacing: -0.5px;
+}
+
+.chat-header__description {
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.62);
+  max-width: 560px;
+}

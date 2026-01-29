@@ -1,0 +1,51 @@
+.page {
+  min-height: 100vh;
+  width: 100%;
+  background: radial-gradient(
+    circle at top left,
+    #0a2f5c,
+    #06214a,
+    #04162f
+  );
+} 
+
+.chat-input-wrapper {
+  max-width: 860px; 
+  padding: 70px 90px;
+}
+
+.chat-content {
+  padding: 0 90px;
+}
+
+.chat-status {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.chat-status--loading {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.chat-status--error {
+  color: #ffb4b4;
+}
+
+.chat-reply {
+  margin-top: 16px;
+}
+
+.chat-reply__text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.chat-reply__source {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  opacity: 0.6;
+  color: #ffffff;
+}
